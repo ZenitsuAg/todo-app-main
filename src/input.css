@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .cover-div {
+        @apply bg-very-light-gray p-3.5 shadow-sm flex dark:bg-very-dark-grayish-blue-2 dark:border-b-dark-grayish-blue;
+    }
+    .circle {
+        @apply min-h-[1.5rem] min-w-[1.5rem] overflow-hidden mr-4 rounded-full border hover:border-linear-gradient-1 dark:hover:border-linear-gradient-2 bg-no-repeat flex justify-center items-center self-center dark:border-dark-grayish-blue;
+    }
+    .para {
+        @apply grow text-very-dark-grayish-blue dark:text-light-grayish-blue break-words;
+    }
+    .cross-icon {
+        @apply min-h-[1.5rem] min-w-[1.5rem] rounded-full bg-icon-cross bg-no-repeat bg-contain self-center cursor-pointer invisible;
+    }
+    .circle-checked {
+        @apply min-h-[1.5rem] min-w-[1.5rem] overflow-hidden mr-4 rounded-full border bg-gradient-to-br from-linear-gradient-1 to-linear-gradient-2 bg-no-repeat flex justify-center items-center self-center dark:border-dark-grayish-blue;
+    }
+    .dragging {
+        @apply opacity-50
+    }
+}
