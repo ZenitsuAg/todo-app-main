@@ -65,7 +65,7 @@ It's easier to do this than to think hard about a classname for this element and
 
 ### Useful resources
 
-- [Tailwind CSS](https://www.tailwindcss.com) - The official docs helped me so much, it was easy to understand and I recommend it to anyone who want's to write CSS - the fast and the Tailwind way.
+- [Tailwind CSS](https://www.tailwindcss.com) - The official docs helped me so much, it was easy to understand and I recommend it to anyone who wants to write CSS - the fast and the Tailwind way.
 
 ## Author
 
