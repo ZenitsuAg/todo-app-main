@@ -60,7 +60,7 @@ input.addEventListener('keyup', (e) => {
             para.classList.toggle('dark:text-dark-grayish-blue')
             para.classList.toggle('text-dark-grayish-blue')
             para.classList.toggle('line-through');
-            check.src = '/images/icon-check.svg';
+            check.src = './images/icon-check.svg';
             check.alt = 'icon-check';
             check.classList.toggle('hidden');
 
